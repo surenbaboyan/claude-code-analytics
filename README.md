@@ -15,6 +15,12 @@ An end-to-end telemetry processing and visualization platform designed to monito
 
 * **Visualization:** Interactive Streamlit dashboard with Plotly integration.
 
+## 🚀 Data Setup
+Since the raw telemetry file is >100MB, it is not included in the repository. 
+To run the project, please generate the data first:
+
+    python3 data/raw/generate_fake_data.py
+
 ## Getting Started (Ubuntu)
 1. #### Setup Environment
 
